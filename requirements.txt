@@ -1,0 +1,8 @@
+streamlit
+tqdm
+sentence-transformers
+chromadb
+ollama
+google-auth
+google-auth-oauthlib
+google-api-python-client
