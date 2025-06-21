@@ -58,6 +58,7 @@ Generate a new App Password for IMAP access
 Use this app-password when syncing Yahoo
 
 📦 Installation Steps
+
 1️⃣ Clone Repository (or download code manually)
 bash
 Copy
