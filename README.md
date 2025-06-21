@@ -88,6 +88,7 @@ pip install -r requirements.txt
 
 
 🚀 Running The App
+
 Start the application with:
 
 bash
@@ -96,6 +97,7 @@ Edit
 streamlit run your_script_name.py
 
 🧠 Using the App
+
 1️⃣ Choose provider (Yahoo or Gmail)
 
 2️⃣ Enter credentials (Yahoo app password or Gmail credentials.json)
