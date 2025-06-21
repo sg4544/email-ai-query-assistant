@@ -27,13 +27,13 @@ Make sure `python` and `pip` are installed and available.
 
 - Download and install Ollama: https://ollama.com/download
 
-- Download the LLM model you wish to use (default: llama3):
+ - Download the LLM model you wish to use (default: llama3):
 
-```bash
-ollama pull llama3
+ ```bash
+ ollama pull llama3
 
 
-3️⃣ Install Git (optional, for cloning project)
+### 3️⃣ Install Git (optional, for cloning project)
 If not already installed, download from: https://git-scm.com/
 
 🔑 Authentication Requirements
