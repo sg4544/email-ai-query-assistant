@@ -28,8 +28,6 @@ Make sure `python` and `pip` are installed and available.
 - Download and install Ollama: https://ollama.com/download
 
   - Download the LLM model you wish to use (default: llama3):
-
-  ```bash
   ollama pull llama3
 
 
@@ -60,9 +58,6 @@ Use this app-password when syncing Yahoo
 📦 Installation Steps
 
 1️⃣ Clone Repository (or download code manually)
-bash
-Copy
-Edit
 git clone <your-repo-url>
 cd <your-repo-directory>
 
@@ -79,21 +74,14 @@ source venv/bin/activate
 
 
 3️⃣ Install Required Packages
-Create a file named requirements.txt (already provided) and install:
 
-bash
-Copy
-Edit
+Create a file named requirements.txt (already provided) and install:
 pip install -r requirements.txt
 
 
 🚀 Running The App
 
 Start the application with:
-
-bash
-Copy
-Edit
 streamlit run your_script_name.py
 
 🧠 Using the App
