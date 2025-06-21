@@ -27,6 +27,12 @@ Make sure `python` and `pip` are installed and available.
 
 - Download and install Ollama: https://ollama.com/download
 
+- Download the LLM model you wish to use (default: llama3):
+
+```bash
+ollama pull llama3
+
+
 3️⃣ Install Git (optional, for cloning project)
 If not already installed, download from: https://git-scm.com/
 
@@ -99,9 +105,6 @@ streamlit run your_script_name.py
 
 5️⃣ Multi-turn chat supported.
 
-- Download the LLM model you wish to use (default: llama3):
 
-```bash
-ollama pull llama3
 
 
