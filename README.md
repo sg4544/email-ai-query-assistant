@@ -58,25 +58,19 @@ Copy
 Edit
 git clone <your-repo-url>
 cd <your-repo-directory>
+
 2️⃣ Create Python Virtual Environment
-bash
-Copy
-Edit
 python -m venv venv
+
 Activate:
 
 Windows:
-
-bash
-Copy
-Edit
 venv\Scripts\activate
-Mac/Linux:
 
-bash
-Copy
-Edit
+Mac/Linux:
 source venv/bin/activate
+
+
 3️⃣ Install Required Packages
 Create a file named requirements.txt (already provided) and install:
 
@@ -84,18 +78,8 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-requirements.txt content:
-txt
-Copy
-Edit
-streamlit
-tqdm
-sentence-transformers
-chromadb
-ollama
-google-auth
-google-auth-oauthlib
-google-api-python-client
+
+
 🚀 Running The App
 Start the application with:
 
@@ -103,6 +87,7 @@ bash
 Copy
 Edit
 streamlit run your_script_name.py
+
 🧠 Using the App
 1️⃣ Choose provider (Yahoo or Gmail)
 
@@ -114,12 +99,6 @@ streamlit run your_script_name.py
 
 5️⃣ Multi-turn chat supported.
 
-⚠ Privacy Notice
-All emails stay fully local
-
-No email data is ever sent to OpenAI or any cloud providers
-
-Local embeddings & local LLM ensure maximum privacy
 - Download the LLM model you wish to use (default: llama3):
 
 ```bash
