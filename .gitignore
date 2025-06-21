@@ -1,0 +1,6 @@
+chroma_db/
+temp_credentials.json
+*.pyc
+__pycache__/
+venv/
+
