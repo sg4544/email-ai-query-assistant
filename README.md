@@ -74,15 +74,11 @@ source venv/bin/activate
 
 
 3️⃣ Install Required Packages
-
-Create a file named requirements.txt (already provided) and install:
 pip install -r requirements.txt
 
-
 🚀 Running The App
-
 Start the application with:
-streamlit run your_script_name.py
+streamlit run app.py
 
 🧠 Using the App
 
