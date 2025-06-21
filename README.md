@@ -26,6 +26,100 @@ Make sure `python` and `pip` are installed and available.
 ### 2️⃣ Install Ollama (for local LLM)
 
 - Download and install Ollama: https://ollama.com/download
+
+3️⃣ Install Git (optional, for cloning project)
+If not already installed, download from: https://git-scm.com/
+
+🔑 Authentication Requirements
+Gmail Setup
+Go to: https://console.cloud.google.com/apis/credentials
+
+Create OAuth Consent Screen (External or Internal for personal use)
+
+Create OAuth Client ID (Desktop App)
+
+Download credentials.json
+
+You will upload this file when syncing Gmail via the app interface
+
+Yahoo Setup
+Go to: https://login.yahoo.com/account/security
+
+Enable App Passwords
+
+Generate a new App Password for IMAP access
+
+Use this app-password when syncing Yahoo
+
+📦 Installation Steps
+1️⃣ Clone Repository (or download code manually)
+bash
+Copy
+Edit
+git clone <your-repo-url>
+cd <your-repo-directory>
+2️⃣ Create Python Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+Activate:
+
+Windows:
+
+bash
+Copy
+Edit
+venv\Scripts\activate
+Mac/Linux:
+
+bash
+Copy
+Edit
+source venv/bin/activate
+3️⃣ Install Required Packages
+Create a file named requirements.txt (already provided) and install:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+requirements.txt content:
+txt
+Copy
+Edit
+streamlit
+tqdm
+sentence-transformers
+chromadb
+ollama
+google-auth
+google-auth-oauthlib
+google-api-python-client
+🚀 Running The App
+Start the application with:
+
+bash
+Copy
+Edit
+streamlit run your_script_name.py
+🧠 Using the App
+1️⃣ Choose provider (Yahoo or Gmail)
+
+2️⃣ Enter credentials (Yahoo app password or Gmail credentials.json)
+
+3️⃣ Click Sync to download and index your emails (only new emails will be fetched on re-sync)
+
+4️⃣ Start asking questions — enjoy your private AI email assistant!
+
+5️⃣ Multi-turn chat supported.
+
+⚠ Privacy Notice
+All emails stay fully local
+
+No email data is ever sent to OpenAI or any cloud providers
+
+Local embeddings & local LLM ensure maximum privacy
 - Download the LLM model you wish to use (default: llama3):
 
 ```bash
